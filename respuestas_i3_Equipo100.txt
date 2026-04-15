@@ -31,3 +31,13 @@ notepad beta.txt
 git add beta.txt
 git commit -m "Gamma agrega sus datos a beta.txt"
 git push origin Figini
+
+g- ¿Qué debió hacer (todos los comandos) en el punto 8 para poder hacer lo pedido?
+
+git fetch origin (para actualizar las referencias de las ramas remotas).
+
+git checkout Figini (para posicionarse en la rama de BETA).
+
+git pull origin Figini (para traer los cambios que GAMMA hizo previamente).
+
+Edición manual del archivo beta.txt.
