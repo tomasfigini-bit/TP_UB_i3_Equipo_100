@@ -24,7 +24,7 @@ e) Detalle (explique) los problemas que tuvieron al hacer el merge
 El principal problema fueron los conflictos de merge.
 Esto pasa porque varios integrantes modifican las mismas partes de archivos como datos.txt y beta.txt. Git no puede unir los cambios automáticamente y hay que resolverlos manualmente.
 
-
+f) ¿Qué debió hacer (todos los comandos) en el punto 7 para poder hacer lo pedido? Para modificar el archivo beta.txt que está en la rama de BETA y subir los cambios, los comandos son:
 git checkout Figini
 git pull 
 notepad beta.txt
