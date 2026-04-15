@@ -12,3 +12,22 @@ Sí. Al ser el administrador del repositorio y el encargado de hacer los Pull Re
 
 c- ¿Qué debió hacer (todos los comandos) en el punto 5 para poder hacer el merge?
 Si lo hubiera hecho localmente en la terminal, los comandos serían: git checkout master (para ir a la rama principal) y luego git merge apellido_de_gamma (para traer los cambios de esa rama). Como lo hicimos en GitHub Web, el proceso fue crear un "Pull request" comparando ambas ramas y hacer clic en "Merge pull request".
+
+
+d) ¿Las ramas creadas por BETA y GAMMA quedan con datos actualizados?
+
+No del todo, cada rama mantiene sus propios cambios hasta el último push, pero no recibe automáticamente los cambios de otras ramas o de master a menos que se haga un pull o un merge.
+
+
+e) Detalle (explique) los problemas que tuvieron al hacer el merge
+
+El principal problema fueron los conflictos de merge.
+Esto pasa porque varios integrantes modifican las mismas partes de archivos como datos.txt y beta.txt. Git no puede unir los cambios automáticamente y hay que resolverlos manualmente.
+
+
+git checkout Figini
+git pull 
+notepad beta.txt
+git add beta.txt
+git commit -m "Gamma agrega sus datos a beta.txt"
+git push origin Figini
