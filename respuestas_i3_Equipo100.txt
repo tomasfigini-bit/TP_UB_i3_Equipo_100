@@ -1,1 +1,14 @@
+Tomas Figini
+Santiago Cannistra
+Francisco Peroni
 
+a- ¿Cómo queda el máster después de estos cambios?
+El máster queda actualizado y unificado. Contiene los archivos datos.txt (con la información de los tres integrantes), los tres archivos de CPU (CPUGamma.txt, CPUAlfa.txt, CPUBeta.txt) y el archivo beta.txt con los datos de red de los tres.
+
+b- ¿Beta pudo ver todos los cambios que se realizaron?
+Sí. Al ser el administrador del repositorio y el encargado de hacer los Pull Requests (merges), BETA pudo revisar todas las modificaciones en la pestaña "Files changed" antes de aceptar las fusiones.
+
+
+
+c- ¿Qué debió hacer (todos los comandos) en el punto 5 para poder hacer el merge?
+Si lo hubiera hecho localmente en la terminal, los comandos serían: git checkout master (para ir a la rama principal) y luego git merge apellido_de_gamma (para traer los cambios de esa rama). Como lo hicimos en GitHub Web, el proceso fue crear un "Pull request" comparando ambas ramas y hacer clic en "Merge pull request".
