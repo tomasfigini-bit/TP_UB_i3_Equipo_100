@@ -10,3 +10,14 @@ Adaptador de Ethernet Ethernet:
    Máscara de subred . . . . . . . . . . . . : 255.255.255.0
    Puerta de enlace predeterminada . . . . . : 192.168.0.1
 19:43
+
+Francisco Peroni
+  Sufijo DNS específico para la conexión. . :
+   Dirección IPv6 . . . . . . . . . . : 2800:40:77:b273:b8ef:3e6:5762:271f
+   Dirección IPv6 temporal. . . . . . : 2800:40:77:b273:99a0:86da:f574:4bb1
+   Vínculo: dirección IPv6 local. . . : fe80::764d:4227:2ceb:dfb4%7
+   Dirección IPv4. . . . . . . . . . . . . . : 192.168.1.23
+   Máscara de subred . . . . . . . . . . . . : 255.255.255.0
+   Puerta de enlace predeterminada . . . . . : fe80::1%7
+                                       192.168.1.1
+19:49
